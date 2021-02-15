@@ -1,0 +1,52 @@
+.parant {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+" a a"
+" b c"
+" d d "
+" e e";
+}
+
+.a{
+    grid-area: a;
+    background-color: aqua;
+ 
+}
+
+.b{
+    grid-area: b;
+    background-color: rgb(211, 137, 52);
+}
+
+.c{
+    grid-area: c;
+    background-color: rgb(175, 151, 106);
+}
+
+.d{
+    grid-area: d;
+    background-color: rgb(47, 31, 185);
+}
+
+.e{
+    grid-area: e;
+    background-color: rgb(207, 55, 187);
+}
+ul li{
+    display: inline;
+    
+float: right;
+padding: 20px;
+padding-right: 120px;
+  
+   
+}
+img{
+    width: 90px;
+    height: 90px;
+}
+
+
+
+
